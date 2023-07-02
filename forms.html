@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <h1>
+            Learning to make forms
+        </h1>
+        <form action="https://www.example.com/login.php">
+            <p>Username:
+                <input type="text" name="username" size="15"
+                maxlength="30"/>
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" 
+                maxlength="30" />
+            </p>
+        </form>
+        <p>
+            <h2>How do you see my progress</h2>
+            <form action="https://example.com/comments.php">
+                <textarea name="comments" rows="4" cols="20">
+                    Enter your comments....
+                </textarea>
+            </form>
+        </p>
+        <p>
+            <h2>Radio Buttons Are So Old</h2>
+            <form action="https://example.com/profile.php">
+                <p>
+                    Please select your favorite genre
+                </p>
+                <input type="radio" name="genre" value="rock" />Rock
+                <input type="radio" name="genre" value="pop" />Pop
+                <input type="radio" name="genre" value="gospel"/>Gospel
+            </form>
+        </p>
+        <p>
+            <h2>On To ALmighty Check Boxes</h2>
+            <form action="https://example.com/profile.php">
+                Please select your gender
+                <br/>
+                <input type="checkbox" name="gender" value="male" />Male
+                <input type="Checkbox" name="gender" value="female" />Female
+            </form>
+        </p>
+        <p>
+            <h2>Drop Down List Box</h2>
+            <form action="https://example.com/profile.php">
+                Where Do You Come From?<br />
+                <select name="Places">
+                    <option value="Obuasi">Obuasi</option>
+                    <option value="Tarkwa">Tarkwa</option>
+                    <option value="Kasoa">Kasoa</option>
+                    <option value="New York">New York</option>
+                    <option value="Washington">Washington</option>
+                </select>
+            </form>
+        </p>
+        <p>
+            <h2>Multiple Select Boxes</h2>
+            <form action="https://example.com/profile.php">
+                Do you play any of the following intruments?
+                (You can select more than one option by holding
+                down control on a PC or command key on a Mac 
+                while selecting different options.)<br />
+                <select name="instruments" size="3" multiple="multiple">
+                    <option value="Guitar">Guitar</option>
+                    <option value="Keyboard">Keyboard</option>
+                </select>
+            </form>
+        </p>
+    </p>
+</html>
