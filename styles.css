@@ -1,10 +1,14 @@
 body {
-    font-family: arial;
+    font-family: 'Courier New', 'Courier', 'monospace';
     background-color: rgb(148, 138, 132);}
 h3 {
     color: rgb(0, 0, 0);}
-
-
+summary{
+        color:rgb(138, 43, 226)}
+img{
+    max-width:none;
+    display: block;
+}
 
 
 
