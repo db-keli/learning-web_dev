@@ -3,16 +3,26 @@ body {
     background-color: rgb(196, 90, 29);
 }
 header {
-        background-color: darkcyan;
-            opacity: 0.7;
+        font-family: Helvetica, sans-serif ;
+        /* background-color: darkcyan; */
+        opacity: 0.7;
+        text-decoration: underline;
+
 }
 h3 {
     color: rgb(0, 0, 0);
 }
 summary {
-        color:rgb(241, 241, 241);
+        color:black;
+        text-decoration: underline;
 }
 a{
-    color:rgb(255, 255, 255);
+    color:blue;
     font-style: italic;
+}
+.larger-image{
+    width: 500px;
+}
+.smaller-image{
+    width: 100px;
 }
