@@ -1,9 +1,18 @@
 body {
     font-family: 'Courier New', 'Courier', 'monospace';
-    background-color: rgb(148, 138, 132);}
+    background-color: rgb(196, 90, 29);
+}
+header {
+        background-color: darkcyan;
+            opacity: 0.7;
+}
 h3 {
-    color: rgb(0, 0, 0);}
-summary{
-        color:rgb(138, 43, 226)}
+    color: rgb(0, 0, 0);
+}
+summary {
+        color:rgb(241, 241, 241);
+}
 a{
-    color:blueviolet}
+    color:rgb(255, 255, 255);
+    font-style: italic;
+}
