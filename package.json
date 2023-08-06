@@ -1,0 +1,23 @@
+{
+  "name": "learning-web_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekeli-the-light/learning-web_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kekeli-the-light/learning-web_dev/issues"
+  },
+  "homepage": "https://github.com/kekeli-the-light/learning-web_dev#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

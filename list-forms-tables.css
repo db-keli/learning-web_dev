@@ -1,0 +1,23 @@
+body{
+    background-color: chartreuse;
+}
+header{
+    font-family: monospace;
+    text-align:center;
+    color:black !important;
+}
+header:hover{
+    border: solid;
+    max-width: fit-content;
+    margin: 10px auto 10px auto;
+    border-color:peru;
+    background-color: peru;
+    border-radius: 80px ;
+}
+ol{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+table{
+    max-width: fit-content;
+}
